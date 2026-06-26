@@ -1,5 +1,5 @@
 lang: en
-title: Joey Jiayu Yang
+title: Joey J. Yang
 description: Personal website of Joey Jiayu Yang.
 copyright: © 2026. All rights reserved.
 
@@ -7,6 +7,25 @@ url: "https://Joeyfully-AI.github.io"
 baseurl: ""
 
 theme: jekyll-theme-hydejack
+
+tagline: Reliable Robot Learning
+
+menu:
+  - title: About
+    url: /
+  - title: Research
+    url: /research/
+  - title: Misc
+    url: /misc/
+
+author:
+  name: Joey Jiayu Yang
+  picture: /assets/img/profile.jpg
+  about: |
+    I am interested in Embodied AI, Robot Learning, Vision-Language-Action models, and reliable robotic manipulation.
+  social:
+    github: Joeyfully-AI
+    huggingface: https://huggingface.co/Joeyfully
 
 accent_image: /assets/img/sidebar-bg.jpg
 accent_color: rgb(79,177,186)
