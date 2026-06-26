@@ -3,13 +3,13 @@ layout: page
 title: About
 ---
 
-# About
+# Joey Jiayu Yang
 
-I am Joey Jiayu Yang, an undergraduate student interested in Embodied AI, Robot Learning, and Vision-Language-Action models.
+![Joey Jiayu Yang](/assets/img/profile.jpg){:.avatar}
 
-My current research focuses on reliable and precise robotic manipulation. I am particularly interested in how VLA policies can become more physically consistent, failure-aware, and capable of long-horizon execution in real robotic tasks.
+Hi, I’m Joey Jiayu Yang.
 
-I am drawn to methods that are simple, scalable, and grounded in the physical structure of robot interaction.
+My research interests focus on Embodied AI, Robot Learning, Vision-Language-Action models, and reliable robotic manipulation.
 
 ## News
 
@@ -21,22 +21,22 @@ I am drawn to methods that are simple, scalable, and grounded in the physical st
 
 ### Failure-Aware Reflection for Vision-Language-Action Models
 
-This project studies how reflection and physical-consistency signals can improve long-horizon VLA execution. The core idea is to evaluate whether an action chunk induces a feasible transition and to use failure-aware guidance for better recovery after execution discrepancies.
+This project studies how reflection and physical-consistency signals can improve long-horizon VLA execution.
 
-### RL Token Reproduction: Efficient and Accurate VLA Control via RL Token Representations
+### RL Token Reproduction
 
-This project explores reinforcement learning refinement for VLA policies using latent action-token representations. It is based on SmolVLA, LeRobot, and LIBERO, with experiments on robot manipulation tasks.
-
-### Multimodal Robot Assistant System
-
-This project builds a multimodal interaction system for mobile robots using LLMs, GraphRAG, knowledge graphs, and retrieval-augmented generation, with a focus on experimental teaching scenarios.
+This project explores reinforcement learning refinement for VLA policies using latent action-token representations.
 
 ## Research Interests
 
-Within Embodied AI and Robot Learning, I am particularly interested in:
-
-- Vision-Language-Action models
+- Embodied AI
+- Robot Learning
+- Vision-Language-Action Models
 - Reliable robotic manipulation
 - Reinforcement learning for robot control
 - Physical consistency and failure-aware policy improvement
-- Long-horizon manipulation and embodied reasoning
+
+## Links
+
+- [GitHub](https://github.com/Joeyfully-AI)
+- [Hugging Face](https://huggingface.co/Joeyfully)
