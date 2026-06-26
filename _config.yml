@@ -7,8 +7,13 @@ url: "https://Joeyfully-AI.github.io"
 baseurl: ""
 
 theme: jekyll-theme-hydejack
-
 tagline: Reliable Robot Learning
+
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: rgb(79,177,186)
+theme_color: rgb(25,55,71)
+
+google_fonts: false
 
 menu:
   - title: About
@@ -25,13 +30,6 @@ author:
     I am interested in Embodied AI, Robot Learning, Vision-Language-Action models, and reliable robotic manipulation.
   social:
     github: Joeyfully-AI
-    huggingface: https://huggingface.co/Joeyfully
-
-accent_image: /assets/img/sidebar-bg.jpg
-accent_color: rgb(79,177,186)
-theme_color: rgb(25,55,71)
-
-google_fonts: false
 
 hydejack:
   post_addons: []
@@ -71,6 +69,17 @@ hydejack:
     precache_assets:
       - /assets/img/swipe.svg
 
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+
 optional_front_matter:
   remove_originals: true
 
@@ -84,13 +93,6 @@ relative_links:
 titles_from_headings:
   strip_title: true
   collections: true
-
-compress_html:
-  comments: ["<!-- ", " -->"]
-  clippings: all
-  endings: all
-  ignore:
-    envs: [development]
 
 sass:
   style: compressed
