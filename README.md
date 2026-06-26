@@ -33,8 +33,3 @@ This project explores reinforcement learning refinement for VLA policies using l
 - Reliable robotic manipulation
 - Reinforcement learning for robot control
 - Physical consistency and failure-aware policy improvement
-
-## Links
-
-- [GitHub](https://github.com/Joeyfully-AI)
-- [Hugging Face](https://huggingface.co/Joeyfully)
