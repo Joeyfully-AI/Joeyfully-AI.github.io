@@ -4,7 +4,6 @@ title: Misc
 permalink: /misc/
 ---
 
-# Misc
 
 Outside of research, I enjoy thinking about how intelligence, embodiment, and physical interaction shape the future of AI.
 
