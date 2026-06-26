@@ -4,8 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-# Research
-
 ## Selected Research
 
 ### Failure-Aware Reflection for Vision-Language-Action Models
