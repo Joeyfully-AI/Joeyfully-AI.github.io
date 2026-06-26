@@ -11,9 +11,9 @@ tagline: Reliable Robot Learning
 
 logo: /assets/img/profile.jpg
 
-accent_image: /assets/img/sidebar-bg.jpg
-accent_color: rgb(214,166,116)
-theme_color: rgb(76,86,78)
+accent_image: /assets/img/sidebar-bg-soft.jpg
+accent_color: rgb(119,145,150)
+theme_color: rgb(48,64,66)
 
 google_fonts: false
 
