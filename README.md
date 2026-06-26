@@ -5,8 +5,6 @@ title: About
 
 # Joey Jiayu Yang
 
-![Joey Jiayu Yang](/assets/img/profile.jpg){:.avatar}
-
 Hi, I’m Joey Jiayu Yang.
 
 My research interests focus on Embodied AI, Robot Learning, Vision-Language-Action models, and reliable robotic manipulation.
