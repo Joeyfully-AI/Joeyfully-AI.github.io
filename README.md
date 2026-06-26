@@ -40,8 +40,3 @@ Within Embodied AI and Robot Learning, I am particularly interested in:
 - Reinforcement learning for robot control
 - Physical consistency and failure-aware policy improvement
 - Long-horizon manipulation and embodied reasoning
-
-## Links
-
-- [GitHub](https://github.com/Joeyfully-AI)
-- [Hugging Face](https://huggingface.co/Joeyfully)
