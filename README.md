@@ -23,13 +23,13 @@ In the long run, I hope to help build general-purpose robots that can work relia
 .research-item {
   display: flex;
   align-items: flex-start;
-  gap: 32px;
-  margin-bottom: 42px;
+  gap: 28px;
+  margin-bottom: 36px;
 }
 
 .research-image {
-  flex: 0 0 36%;
-  max-width: 520px;
+  flex: 0 0 34%;
+  max-width: 460px;
 }
 
 .research-image img {
@@ -40,48 +40,53 @@ In the long run, I hope to help build general-purpose robots that can work relia
 
 .research-content {
   flex: 1;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 1.55;
 }
 
 .research-title {
-  font-size: 28px;
+  font-size: 1.12rem;
   font-weight: 700;
-  line-height: 1.25;
-  margin: 0 0 8px 0;
+  line-height: 1.35;
+  margin: 0 0 6px 0;
 }
 
 .research-authors {
-  font-size: 20px;
-  margin: 0 0 4px 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0 0 3px 0;
 }
 
 .research-venue {
-  font-size: 19px;
+  font-size: 0.95rem;
   font-style: italic;
-  margin: 0 0 8px 0;
+  line-height: 1.45;
+  margin: 0 0 6px 0;
 }
 
 .research-links {
-  font-size: 19px;
-  margin: 0 0 22px 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0 0 12px 0;
 }
 
 .research-links a {
-  margin-right: 8px;
+  margin-right: 6px;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 .research-desc {
-  font-size: 18px;
+  font-size: 0.95rem;
+  line-height: 1.5;
   margin: 0;
 }
 
 @media (max-width: 800px) {
   .research-item {
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
+    margin-bottom: 32px;
   }
 
   .research-image {
@@ -90,7 +95,15 @@ In the long run, I hope to help build general-purpose robots that can work relia
   }
 
   .research-title {
-    font-size: 24px;
+    font-size: 1.05rem;
+  }
+
+  .research-content,
+  .research-authors,
+  .research-venue,
+  .research-links,
+  .research-desc {
+    font-size: 0.95rem;
   }
 }
 </style>
@@ -101,13 +114,11 @@ In the long run, I hope to help build general-purpose robots that can work relia
   </div>
   <div class="research-content">
     <p class="research-title">PhysReflect-VLA: Physical Feasibility and Self-Reflective Regulation for Reliable Vision-Language-Action Policies</p>
-    <p class="research-authors"><strong>Joey Young</strong>, Tao Yang, Weijun Li, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
+    <p class="research-authors"><strong>Jiayu Yang</strong>, Tao Yang, Weijun Li, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
     <p class="research-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</p>
     <p class="research-links">
       <a href="https://arxiv.org/abs/2606.27146">paper</a> /
-      <a href="PROJECT_LINK">project</a> /
-      <a href="CODE_LINK">code</a> /
-      <a href="VIDEO_LINK">video</a>
+      <a href="PROJECT_LINK">project</a>
     </p>
     <p class="research-desc">PhysReflect-VLA improves long-horizon VLA control through physical feasibility evaluation and self-reflective failure recovery.</p>
   </div>
@@ -119,12 +130,10 @@ In the long run, I hope to help build general-purpose robots that can work relia
   </div>
   <div class="research-content">
     <p class="research-title">PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies</p>
-    <p class="research-authors"><strong>Joey Young</strong>, Tao Yang, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
+    <p class="research-authors"><strong>Jiayu Yang</strong>, Tao Yang, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
     <p class="research-venue">IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026</p>
     <p class="research-links">
-      <a href="https://arxiv.org/abs/2606.27144">paper</a> /
-      <a href="PROJECT_LINK">project</a> /
-      <a href="CODE_LINK">code</a>
+      <a href="https://arxiv.org/abs/2606.27144">paper</a>
     </p>
     <p class="research-desc">PAMAE introduces phase-aware mixture-of-experts action generation for more reliable flow-matching VLA policies in multi-stage manipulation.</p>
   </div>
@@ -136,7 +145,7 @@ In the long run, I hope to help build general-purpose robots that can work relia
   </div>
   <div class="research-content">
     <p class="research-title">RL Token Reproduction</p>
-    <p class="research-authors"><strong>Joey Young</strong></p>
+    <p class="research-authors"><strong>Jiayu Yang</strong></p>
     <p class="research-venue">Open-source reproduction, 2026</p>
     <p class="research-links">
       <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10">model</a> /
