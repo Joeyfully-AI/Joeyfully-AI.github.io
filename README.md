@@ -23,70 +23,77 @@ In the long run, I hope to help build general-purpose robots that can work relia
 .research-item {
   display: flex;
   align-items: flex-start;
-  gap: 28px;
-  margin-bottom: 36px;
+  gap: 24px;
+  margin-bottom: 34px;
 }
 
 .research-image {
-  flex: 0 0 34%;
-  max-width: 460px;
+  flex: 0 0 280px;
+  max-width: 280px;
 }
 
 .research-image img {
   width: 100%;
+  max-height: 150px;
+  object-fit: contain;
   border-radius: 6px;
   display: block;
 }
 
 .research-content {
   flex: 1;
-  font-size: 1rem;
-  line-height: 1.55;
+  font-size: 15.5px;
+  line-height: 1.45;
 }
 
 .research-title {
-  font-size: 1.12rem;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 1.35;
-  margin: 0 0 6px 0;
+  line-height: 1.28;
+  margin: 0 0 5px 0;
 }
 
 .research-authors {
-  font-size: 0.95rem;
-  line-height: 1.45;
+  font-size: 15.5px;
+  line-height: 1.4;
   margin: 0 0 3px 0;
 }
 
 .research-venue {
-  font-size: 0.95rem;
+  font-size: 15.5px;
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.4;
   margin: 0 0 6px 0;
 }
 
 .research-links {
-  font-size: 0.95rem;
-  line-height: 1.45;
-  margin: 0 0 12px 0;
+  font-size: 15.5px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
 }
 
 .research-links a {
-  margin-right: 6px;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  margin-right: 12px;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.research-links a::after {
+  content: none !important;
+  display: none !important;
 }
 
 .research-desc {
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 15.5px;
+  line-height: 1.45;
   margin: 0;
 }
 
 @media (max-width: 800px) {
   .research-item {
     flex-direction: column;
-    gap: 14px;
-    margin-bottom: 32px;
+    gap: 12px;
+    margin-bottom: 30px;
   }
 
   .research-image {
@@ -94,16 +101,12 @@ In the long run, I hope to help build general-purpose robots that can work relia
     max-width: 100%;
   }
 
-  .research-title {
-    font-size: 1.05rem;
+  .research-image img {
+    max-height: none;
   }
 
-  .research-content,
-  .research-authors,
-  .research-venue,
-  .research-links,
-  .research-desc {
-    font-size: 0.95rem;
+  .research-title {
+    font-size: 17px;
   }
 }
 </style>
