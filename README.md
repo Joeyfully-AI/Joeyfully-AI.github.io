@@ -19,78 +19,131 @@ In the long run, I hope to help build general-purpose robots that can work relia
 
 ## Selected Research
 
+<style>
+.research-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 42px;
+}
+
+.research-image {
+  flex: 0 0 36%;
+  max-width: 520px;
+}
+
+.research-image img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+
+.research-content {
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.research-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 8px 0;
+}
+
+.research-authors {
+  font-size: 20px;
+  margin: 0 0 4px 0;
+}
+
+.research-venue {
+  font-size: 19px;
+  font-style: italic;
+  margin: 0 0 8px 0;
+}
+
+.research-links {
+  font-size: 19px;
+  margin: 0 0 22px 0;
+}
+
+.research-links a {
+  margin-right: 8px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.research-desc {
+  font-size: 18px;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .research-item {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .research-image {
+    flex: none;
+    max-width: 100%;
+  }
+
+  .research-title {
+    font-size: 24px;
+  }
+}
+</style>
+
 <div class="research-item">
   <div class="research-image">
-    <img src="IMAGE_PLACEHOLDER_IROS" alt="PhysReflect-VLA project thumbnail">
+    <img src="assets/img/research/physreflect-vla.png" alt="PhysReflect-VLA project thumbnail">
   </div>
   <div class="research-content">
-    <p><strong>PhysReflect-VLA: Physical Feasibility and Self-Reflective Regulation for Reliable Vision-Language-Action Policies</strong></p>
-    <p>Reliable VLA control for long-horizon robot manipulation through physical feasibility evaluation and self-reflective failure recovery.</p>
-    <p>
-      <a href="https://arxiv.org/abs/2606.27146">Paper</a> /
-      <details class="bibtex-details">
-        <summary>Bibitex</summary>
-        <pre><code>@inproceedings{yang2026physreflectvla,
-  title     = {PhysReflect-VLA: Physical Feasibility and Self-Reflective Regulation for Reliable Vision-Language-Action Policies},
-  author    = {Yang, Jiayu and Yang, Tao and Li, Weijun and Chang, Xiang and Chao, Fei and Shang, Changjing and Shen, Qiang},
-  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year      = {2026},
-  eprint    = {2606.27146},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO}
-}</code></pre>
-      </details>
+    <p class="research-title">PhysReflect-VLA: Physical Feasibility and Self-Reflective Regulation for Reliable Vision-Language-Action Policies</p>
+    <p class="research-authors"><strong>Joey Young</strong>, Tao Yang, Weijun Li, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
+    <p class="research-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</p>
+    <p class="research-links">
+      <a href="https://arxiv.org/abs/2606.27146">paper</a> /
+      <a href="PROJECT_LINK">project</a> /
+      <a href="CODE_LINK">code</a> /
+      <a href="VIDEO_LINK">video</a>
     </p>
+    <p class="research-desc">PhysReflect-VLA improves long-horizon VLA control through physical feasibility evaluation and self-reflective failure recovery.</p>
   </div>
 </div>
 
 <div class="research-item">
   <div class="research-image">
-    <img src="IMAGE_PLACEHOLDER_SMC" alt="PAMAE project thumbnail">
+    <img src="assets/img/research/pamae.png" alt="PAMAE project thumbnail">
   </div>
   <div class="research-content">
-    <p><strong>PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies</strong></p>
-    <p>Phase-aware mixture-of-experts action generation for more reliable flow-matching VLA policies in multi-stage robot manipulation.</p>
-    <p>
-      <a href="https://arxiv.org/abs/2606.27144">Paper</a> /
-      <details class="bibtex-details">
-        <summary>Bibitex</summary>
-        <pre><code>@inproceedings{yang2026pamae,
-  title     = {PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies},
-  author    = {Yang, Jiayu and Yang, Tao and Chang, Xiang and Chao, Fei and Shang, Changjing and Shen, Qiang},
-  booktitle = {Proceedings of the IEEE International Conference on Systems, Man, and Cybernetics (SMC)},
-  year      = {2026},
-  eprint    = {2606.27144},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO}
-}</code></pre>
-      </details>
+    <p class="research-title">PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies</p>
+    <p class="research-authors"><strong>Joey Young</strong>, Tao Yang, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
+    <p class="research-venue">IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026</p>
+    <p class="research-links">
+      <a href="https://arxiv.org/abs/2606.27144">paper</a> /
+      <a href="PROJECT_LINK">project</a> /
+      <a href="CODE_LINK">code</a>
     </p>
+    <p class="research-desc">PAMAE introduces phase-aware mixture-of-experts action generation for more reliable flow-matching VLA policies in multi-stage manipulation.</p>
   </div>
 </div>
 
 <div class="research-item">
   <div class="research-image">
-    <img src="IMAGE_PLACEHOLDER_RLT" alt="RLT-style VLA reproduction thumbnail">
+    <img src="assets/img/research/rlt-reproduction.png" alt="RLT-style VLA reproduction thumbnail">
   </div>
   <div class="research-content">
-    <p><strong>RL Token Reproduction</strong></p>
-    <p>A low-resource RLT-style reproduction for VLA control with SmolVLA, LeRobot, and LIBERO.</p>
-    <p>
-      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10">Model</a> /
-      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10/resolve/main/RL%20Token%20Reproduction_Efficient%20and%20Accurate%20VLA%20Control%20via%20RL%20Token%20Representations%E2%80%93ppt.pptx?download=true">Slides</a> /
-      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10/tree/main/videos">Video</a> /
-      <details class="bibtex-details">
-        <summary>Bibitex</summary>
-        <pre><code>@misc{young2026rltreproduction,
-  title        = {RL Token Reproduction: Efficient and Accurate VLA Control via RL Token Representations},
-  author       = {Young, Joey},
-  year         = {2026},
-  howpublished = {\url{https://huggingface.co/Joeyfully/smolvla_rlt_libero_10}},
-  note         = {A low-resource RLT-style reproduction for VLA control with SmolVLA, LeRobot, and LIBERO}
-}</code></pre>
-      </details>
+    <p class="research-title">RL Token Reproduction</p>
+    <p class="research-authors"><strong>Joey Young</strong></p>
+    <p class="research-venue">Open-source reproduction, 2026</p>
+    <p class="research-links">
+      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10">model</a> /
+      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10/resolve/main/RL%20Token%20Reproduction_Efficient%20and%20Accurate%20VLA%20Control%20via%20RL%20Token%20Representations%E2%80%93ppt.pptx?download=true">slides</a> /
+      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10/tree/main/videos">video</a>
     </p>
+    <p class="research-desc">A low-resource RLT-style reproduction for VLA control with SmolVLA, LeRobot, and LIBERO.</p>
   </div>
 </div>
 
