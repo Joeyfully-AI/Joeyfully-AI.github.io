@@ -117,8 +117,7 @@ In the long run, I hope to help build general-purpose robots that can work relia
     <p class="research-authors"><strong>Jiayu Yang</strong>, Tao Yang, Weijun Li, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
     <p class="research-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</p>
     <p class="research-links">
-      <a href="https://arxiv.org/abs/2606.27146">paper</a> /
-      <a href="PROJECT_LINK">project</a>
+      <a href="https://arxiv.org/abs/2606.27146">paper</a>
     </p>
     <p class="research-desc">PhysReflect-VLA improves long-horizon VLA control through physical feasibility evaluation and self-reflective failure recovery.</p>
   </div>
