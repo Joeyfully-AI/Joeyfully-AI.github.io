@@ -37,7 +37,7 @@ hydejack:
   post_addons: []
   project_addons: []
 
-  no_mark_external: false
+  no_mark_external: true
   no_push_state: false
   no_drawer: false
   no_navbar: false
