@@ -11,11 +11,11 @@ In the long run, I hope to help build general-purpose robots that can work relia
 
 ## News
 
-* **[Jun, 2026]** One paper was accepted to **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)**. [[Paper]](https://arxiv.org/abs/2606.27146)
+* **[Jun, 2026]** One paper was accepted to **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)**.
 
-* **[Jun, 2026]** One paper was accepted to **IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026)**. [[Paper]](https://arxiv.org/abs/2606.27144)
+* **[Jun, 2026]** One paper was accepted to **IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026)**.
 
-* **[May, 2026]** I released a low-resource **RLT-style reproduction for VLA control**, built on **SmolVLA**, **LeRobot**, and **LIBERO**. [[Model]](https://huggingface.co/Joeyfully/smolvla_rlt_libero_10) [[Slides]](https://huggingface.co/Joeyfully/smolvla_rlt_libero_10/resolve/main/RL%20Token%20Reproduction_Efficient%20and%20Accurate%20VLA%20Control%20via%20RL%20Token%20Representations%E2%80%93ppt.pptx?download=true) [[Video]](https://huggingface.co/Joeyfully/smolvla_rlt_libero_10/tree/main/videos)
+* **[May, 2026]** I released a low-resource **RLT-style reproduction for VLA control**, built on **SmolVLA**, **LeRobot**, and **LIBERO**.
 
 ## Selected Research
 
