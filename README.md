@@ -175,4 +175,8 @@ I owe so much to the people who have generously mentored me, encouraged me, and 
 
 ## Misc
 
+In my free time, I enjoy reading, wandering through cities, and imagining food that I may or may not actually cook. During my first year of college, I often spent weekends traveling alone without a fixed destination — hopping between streets, stations, neighborhoods, and quiet corners of a city just to see where the day would take me. I also have a soft spot for old books, from Chinese classical literature to medieval writings, and for being a “cloud foodie” and imaginary-kitchen chef when real cooking is temporarily unavailable. :)
+
+Below I expand a little bit on some fun experiences and interests that have shaped the way I think.
+
 
