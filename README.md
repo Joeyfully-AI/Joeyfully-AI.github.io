@@ -161,9 +161,18 @@ In the long run, I hope to help build general-purpose robots that can work relia
 
 ## Research Interests
 
-- Embodied AI
-- Robot Learning
-- Vision-Language-Action Models
-- Reliable robotic manipulation
-- Reinforcement learning for robot control
-- Physical consistency and failure-aware policy improvement
+Within robot learning, deep reinforcement learning, and embodied AI, I am particularly interested in:
+
+**Robotics RL for foundation policies:** improve pretrained robot policies, especially Vision-Language-Action models, through reinforcement learning, value learning, and online/post-training adaptation, while preserving their semantic and behavioral priors.
+
+**World models and physical consistency:** build internal models, verifiers, and self-consistency objectives that help robots predict the physical consequences of their actions, evaluate feasibility, and recover from execution failures.
+
+**Hierarchical and phase-aware manipulation:** enable reliable long-horizon robot manipulation through temporal abstraction, skill-level control, and phase-aware refinement, especially for precise and contact-rich tasks.
+
+A sample of other topics that I am also curious about: cross-embodiment generalization, generative models for robot behavior, and efficient adaptation of large robot foundation models.
+
+I owe so much to the people who have generously mentored me, encouraged me, and inspired me with their vision and passion.
+
+## Misc
+
+
