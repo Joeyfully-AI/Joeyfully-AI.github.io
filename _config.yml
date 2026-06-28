@@ -21,9 +21,9 @@ menu:
   - title: About
     url: /
   - title: Research
-    url: /#research
+    url: /## Selected Research
   - title: Misc
-    url: /#misc
+    url: /## Misc
 
 author:
   name: Joey Jiayu Yang
