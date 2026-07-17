@@ -31,7 +31,7 @@ author:
   about: |
     I am interested in Embodied AI, Robot Learning, Vision-Language-Action models, and reliable robotic manipulation.
   social:
-    github: Joeyfully-AI
+    #github: Joeyfully-AI
 
 hydejack:
   post_addons: []
