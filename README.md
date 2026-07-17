@@ -180,68 +180,87 @@ In my free time, I enjoy reading, wandering through cities, and imagining food t
 Below I expand a little bit on some fun experiences and interests that have shaped the way I think.
 
 <style>
-.misc-item {
-  display: flex;
-  align-items: center;
-  gap: 28px;
-  margin-top: 28px;
-  margin-bottom: 34px;
-}
-
-.misc-content {
-  flex: 1;
+.chess-story {
   font-size: 15.5px;
   line-height: 1.55;
+  margin-top: 28px;
 }
 
-.misc-image {
-  flex: 0 0 300px;
-  max-width: 300px;
+/* Word-style text wrapping */
+.chess-story-image {
+  float: right;
+  width: min(36%, 480px);
+  margin: 4px 0 18px 30px;
 }
 
-.misc-image img {
+.chess-story-image img {
   width: 100%;
-  max-height: 210px;
+  height: auto;
+  max-height: 340px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
   display: block;
 }
 
+/* Prevent the float from affecting later sections */
+.chess-story::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 @media (max-width: 800px) {
-  .misc-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
+  .chess-story-image {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
   }
 
-  .misc-image {
-    flex: none;
-    max-width: 100%;
-  }
-
-  .misc-image img {
+  .chess-story-image img {
     max-height: none;
   }
 }
 </style>
 
-<div class="misc-item">
-  <div class="misc-content">
-    <p>
-      Somewhere along the way, robotics also found an unexpected route back into one of my older interests: chess. I occasionally spend time with a small group of fellow chess enthusiasts who enjoy building and experimenting with their own chess engines. What began as casual conversations about strange moves, long games, and why a model suddenly forgets how the board works gradually turned into a fun exchange of ideas across two seemingly distant worlds.
-    </p>
-    <p>
-      I found myself borrowing intuitions from robot learning — action sequences, state tracking, generative policies, and the way small errors accumulate over time — and wondering how they might behave on a chessboard. Not every idea worked, of course, but that was part of the charm. We would propose something, test it in a few games, watch the engine produce either a surprisingly elegant line or complete nonsense, and then try again.
-    </p>
-    <p>
-  I enjoy these experiments precisely because they are not part of my formal research agenda. They are a reminder that technical ideas can travel, that research does not always have to begin with a carefully written problem statement, and that sometimes the best way to understand a model is simply to play with it alongside people who share the same curiosity.
-    </p>
+<div class="chess-story">
+  <!-- 第一段占满页面宽度 -->
+  <p>
+    Somewhere along the way, robotics also found an unexpected
+    route back into one of my older interests: chess. I occasionally
+    spend time with a small group of fellow chess enthusiasts who
+    enjoy building and experimenting with their own chess engines.
+    What began as casual conversations about strange moves, long
+    games, and why a model suddenly forgets how the board works
+    gradually turned into a fun exchange of ideas across two seemingly
+    distant worlds.
+  </p>
+
+  <!-- 图片从这里开始浮动，后面的文字会环绕它 -->
+  <div class="chess-story-image">
+    <img
+      src="assets/img/misc/chess-engine.jpg"
+      alt="A sunlit chessboard"
+    >
   </div>
 
-  <div class="misc-image">
-    <img src="assets/img/misc/chess-engine.jpg" alt="Experimenting with a chess engine">
-  </div>
+  <p>
+    I found myself borrowing intuitions from robot learning — action
+    sequences, state tracking, generative policies, and the way small
+    errors accumulate over time — and wondering how they might
+    behave on a chessboard. Not every idea worked, of course, but that
+    was part of the charm. We would propose something, test it in a
+    few games, watch the engine produce either a surprisingly elegant
+    line or complete nonsense, and then try again.
+  </p>
+
+  <p>
+    I enjoy these experiments precisely because they are not part of my
+    formal research agenda. They are a reminder that technical ideas
+    can travel, that research does not always have to begin with a
+    carefully written problem statement, and that sometimes the best
+    way to understand a model is simply to play with it alongside
+    people who share the same curiosity.
+  </p>
 </div>
-
 
 
