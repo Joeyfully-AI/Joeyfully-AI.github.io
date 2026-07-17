@@ -31,7 +31,11 @@ author:
   about: |
     I am interested in Embodied AI, Robot Learning, Vision-Language-Action models, and reliable robotic manipulation.
   social:
-    #github: Joeyfully-AI
+    email: jiayuyangai@stu.xmu.edu.cn
+    github: joeyfully-ai
+    twitter: joeyfully_
+    huggingface: joeyfully
+    scholar: "https://scholar.google.com/citations?user=t_fUYMEAAAAJ&hl=en"
 
 hydejack:
   post_addons: []
