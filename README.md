@@ -263,4 +263,10 @@ Below I expand a little bit on some fun experiences and interests that have shap
   </p>
 </div>
 
+## A Final Note
+
+I am sometimes asked why I chose artificial intelligence. I do not think there was a single moment when the answer suddenly became clear. It emerged gradually through models that failed in unexpected ways, ideas that worked only after many revisions, and the quiet satisfaction of watching something once confined to thought begin to perceive, decide, or act.
+
+I still do not know exactly where this path will lead. There are many questions I have not learned how to ask yet, let alone answer. But perhaps that is precisely why artificial intelligence has become my answer: not because it offers certainty, but because it gives me a language for exploring the uncertain and a way to turn curiosity into something that can move in the world.
+
 
