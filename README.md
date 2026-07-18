@@ -7,7 +7,8 @@ I am an undergraduate student in Artificial Intelligence at [Xiamen University](
 
 I am broadly interested in robot learning and embodied AI. My current research focuses on Vision-Language-Action models, long-horizon manipulation, and reliable robot control. I am especially interested in what happens after a robot understands a task: how it can produce actions that are physically feasible, precise, and recoverable when execution does not go as planned.
 
-In the long run, I hope to help build general-purpose robots that can work reliably in everyday environments, from homes to factories, handling tasks that are tedious, delicate, or dangerous. I hope my work can contribute to a growing effort toward robot intelligence that is not only expressive, but also dependable in the physical world.
+In the long run, I hope to develop robot policies that retain the broad understanding of foundation models while acquiring the precision, physical awareness, and adaptability required for real execution. My goal is to help robots move beyond producing plausible actions and toward completing complex tasks reliably in changing, imperfect environments.
+
 
 ## News
 
@@ -163,13 +164,13 @@ In the long run, I hope to help build general-purpose robots that can work relia
 
 Within robot learning, deep reinforcement learning, and embodied AI, I am particularly interested in:
 
-**Robotics RL for foundation policies:** improve pretrained robot policies, especially Vision-Language-Action models, through reinforcement learning, value learning, and online/post-training adaptation, while preserving their semantic and behavioral priors.
+**Reliable robot execution and physical intelligence:** study how robot policies can move beyond semantic task understanding toward physically grounded, precise, and recoverable execution in real-world environments.
 
-**World models and physical consistency:** build internal models, verifiers, and self-consistency objectives that help robots predict the physical consequences of their actions, evaluate feasibility, and recover from execution failures.
+**Reinforcement learning for robot foundation models:** investigate how reinforcement learning can extend pretrained Vision-Language-Action policies, improving their execution capabilities and adaptability while preserving the semantic understanding and behavioral priors acquired during pretraining.
 
-**Hierarchical and phase-aware manipulation:** enable reliable long-horizon robot manipulation through temporal abstraction, skill-level control, and phase-aware refinement, especially for precise and contact-rich tasks.
+**Long-horizon and generalizable manipulation:** explore how robots can acquire, organize, and transfer underlying execution mechanisms across multi-stage, precision-demanding, and contact-rich tasks, enabling reliable adaptation to unseen or sparsely demonstrated tasks.
 
-A sample of other topics that I am also curious about: cross-embodiment generalization, generative models for robot behavior, and efficient adaptation of large robot foundation models.
+I am also interested in predictive world models, physical consistency, and efficient adaptation as complementary paths toward more reliable and generalizable robot intelligence.
 
 I owe so much to the people who have generously mentored me, encouraged me, and inspired me with their vision and passion.
 
@@ -177,7 +178,7 @@ I owe so much to the people who have generously mentored me, encouraged me, and 
 
 In my free time, I enjoy reading, wandering through cities, and imagining food that I may or may not actually cook. During my first year of college, I often spent weekends traveling alone without a fixed destination — hopping between streets, stations, neighborhoods, and quiet corners of a city just to see where the day would take me. I also have a soft spot for old books, from Chinese classical literature to medieval writings, and for being a “cloud foodie” and imaginary-kitchen chef when real cooking is temporarily unavailable. :)
 
-Below I expand a little bit on some fun experiences and interests that have shaped the way I think.
+Some of these interests have remained separate from my research; others have unexpectedly found their way back into how I think about robots and learning systems.
 
 <style>
 .chess-story {
