@@ -24,21 +24,26 @@ In the long run, I hope to develop robot policies that retain the broad understa
   margin-bottom: 34px;
 }
 
+/* Fixed research thumbnail */
 .research-image {
   flex: 0 0 280px;
-  max-width: 280px;
+  width: 280px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 6px;
 }
 
 .research-image img {
   width: 100%;
-  max-height: 150px;
-  object-fit: contain;
-  border-radius: 6px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
 
 .research-content {
   flex: 1;
+  min-width: 0;
   font-size: 15.5px;
   line-height: 1.45;
 }
@@ -89,17 +94,15 @@ In the long run, I hope to develop robot policies that retain the broad understa
 @media (max-width: 800px) {
   .research-item {
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
     margin-bottom: 30px;
   }
 
   .research-image {
     flex: none;
-    max-width: 100%;
-  }
-
-  .research-image img {
-    max-height: none;
+    width: 100%;
+    max-width: 520px;
+    aspect-ratio: 16 / 9;
   }
 
   .research-title {
@@ -188,7 +191,6 @@ Some of these interests have remained separate from my research; others have une
 </style>
 
 <div class="chess-story">
-  <!-- 第一段占满页面宽度 -->
   <p>
     Somewhere along the way, robotics also found an unexpected
     route back into one of my older interests: chess. I occasionally
@@ -200,7 +202,6 @@ Some of these interests have remained separate from my research; others have une
     distant worlds.
   </p>
 
-  <!-- 图片从这里开始浮动，后面的文字会环绕它 -->
   <div class="chess-story-image">
     <img
       src="assets/img/misc/chess-engine.jpg"
