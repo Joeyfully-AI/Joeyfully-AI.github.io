@@ -14,10 +14,6 @@ In the long run, I hope to develop robot policies that retain the broad understa
 
 * **[Jun, 2026]** One paper was accepted to **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)**.
 
-* **[Jun, 2026]** One paper was accepted to **IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026)**.
-
-* **[May, 2026]** I released a low-resource **RLT-style reproduction for VLA control**, built on **SmolVLA**, **LeRobot**, and **LIBERO**.
-
 ## Selected Research
 
 <style>
@@ -124,38 +120,6 @@ In the long run, I hope to develop robot policies that retain the broad understa
       <a href="https://arxiv.org/abs/2606.27146">paper</a>
     </p>
     <p class="research-desc">PhysReflect-VLA improves long-horizon VLA control through physical feasibility evaluation and self-reflective failure recovery.</p>
-  </div>
-</div>
-
-<div class="research-item">
-  <div class="research-image">
-    <img src="assets/img/research/pamae.png" alt="PAMAE project thumbnail">
-  </div>
-  <div class="research-content">
-    <p class="research-title">PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies</p>
-    <p class="research-authors"><strong>Jiayu Yang</strong>, Tao Yang, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
-    <p class="research-venue">IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026</p>
-    <p class="research-links">
-      <a href="https://arxiv.org/abs/2606.27144">paper</a>
-    </p>
-    <p class="research-desc">PAMAE introduces phase-aware mixture-of-experts action generation for more reliable flow-matching VLA policies in multi-stage manipulation.</p>
-  </div>
-</div>
-
-<div class="research-item">
-  <div class="research-image">
-    <img src="assets/img/research/rlt-reproduction.png" alt="RLT-style VLA reproduction thumbnail">
-  </div>
-  <div class="research-content">
-    <p class="research-title">RL Token Reproduction</p>
-    <p class="research-authors"><strong>Jiayu Yang</strong></p>
-    <p class="research-venue">Open-source reproduction, 2026</p>
-    <p class="research-links">
-      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10">model</a> /
-      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10/resolve/main/RL%20Token%20Reproduction_Efficient%20and%20Accurate%20VLA%20Control%20via%20RL%20Token%20Representations%E2%80%93ppt.pptx?download=true">slides</a> /
-      <a href="https://huggingface.co/Joeyfully/smolvla_rlt_libero_10/tree/main/videos">video</a>
-    </p>
-    <p class="research-desc">A low-resource RLT-style reproduction for VLA control with SmolVLA, LeRobot, and LIBERO.</p>
   </div>
 </div>
 
