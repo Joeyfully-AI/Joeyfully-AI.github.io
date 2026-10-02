@@ -230,6 +230,7 @@ I also have a soft spot for old books, from Chinese classical literature to medi
   Not every curiosity needs a problem statement, a benchmark, or a conclusion.
   Some are worth following simply because they are interesting.
 </p>
+
 ## A Final Note
 
 I still do not know exactly where research will take me, and I hope that remains true for a while. Some of the questions I care about today will probably disappear; others have not occurred to me yet.
