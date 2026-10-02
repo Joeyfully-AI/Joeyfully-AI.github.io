@@ -148,83 +148,89 @@ Contributing to hands-on laboratory design and technical instruction in robot co
 
 ## Misc
 
-Outside research, I enjoy reading, wandering through cities, playing chess, and thinking about food that I may or may not ever cook. During my first year of college, I often spent weekends traveling alone without a fixed destination — hopping between streets, stations, neighborhoods, and quiet corners of a city simply to see where the day would take me.
+Outside research, I enjoy reading, wandering through cities, playing chess, and thinking about food that I may or may not ever cook. During my first year of college, I often spent weekends exploring cities without a fixed destination — streets, stations, bookstores, neighborhoods, and whatever happened to be along the way.
 
-I also have a soft spot for old books, from Chinese classical literature to medieval writings, and for being a bit of a “cloud foodie” and imaginary-kitchen chef whenever real cooking is temporarily unavailable. More generally, I enjoy the kind of small, unnecessary curiosities that are fun precisely because they do not need to become anything else.
+I also have a soft spot for old books, from Chinese classical literature to medieval writings, and for being a bit of a “cloud foodie” whenever real cooking is temporarily unavailable.
 
 <style>
-.chess-story {
+.misc-chess {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.8fr);
+  gap: 30px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.misc-chess-text {
   font-size: 15.5px;
   line-height: 1.55;
-  margin-top: 28px;
 }
 
-.chess-story-image {
-  float: right;
-  width: min(36%, 480px);
-  margin: 4px 0 18px 30px;
+.misc-chess-text p {
+  margin-top: 0;
+  margin-bottom: 14px;
 }
 
-.chess-story-image img {
+.misc-chess-image img {
   width: 100%;
-  height: auto;
-  max-height: 340px;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 10px;
   display: block;
 }
 
-.chess-story::after {
-  content: "";
-  display: block;
-  clear: both;
+.misc-note {
+  margin-top: 28px;
+  font-size: 15.5px;
+  line-height: 1.55;
+  font-style: italic;
+  opacity: 0.85;
 }
 
 @media (max-width: 800px) {
-  .chess-story-image {
-    float: none;
-    width: 100%;
-    margin: 20px 0;
+  .misc-chess {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 
-  .chess-story-image img {
-    max-height: none;
+  .misc-chess-image {
+    order: -1;
+  }
+
+  .misc-chess-image img {
+    aspect-ratio: 16 / 10;
   }
 }
 </style>
 
-<div class="chess-story">
-  <p>
-    Chess is one of those interests I keep returning to. I occasionally
-    spend time with a small group of fellow enthusiasts who enjoy
-    building and experimenting with their own chess engines. Much of it
-    is delightfully informal: strange moves, long games, broken ideas,
-    unexpected successes, and plenty of complete nonsense.
-  </p>
+<div class="misc-chess">
+  <div class="misc-chess-text">
+    <p>
+      Chess is one of those interests I keep returning to. I occasionally
+      spend time with a small group of fellow enthusiasts who enjoy building
+      and experimenting with their own chess engines.
+    </p>
+    <p>
+      Much of it is delightfully informal: strange moves, long games,
+      broken ideas, unexpected successes, and plenty of complete nonsense.
+      Every now and then, ideas from machine learning sneak in, but I mostly
+      enjoy it as a chance to play with models and exchange half-formed ideas
+      with friends.
+    </p>
+  </div>
 
-  <div class="chess-story-image">
+  <div class="misc-chess-image">
     <img
       src="assets/img/misc/chess-engine.jpg"
       alt="A sunlit chessboard"
     >
   </div>
-
-  <p>
-    Every now and then, ideas from machine learning sneak into these
-    experiments, such as questions about action sequences, state tracking,
-    generative policies, or how small errors accumulate over time.
-    But I mostly enjoy them for what they are: a chance to play with
-    models, exchange half-formed ideas with friends, and explore
-    something without needing it to become part of a research agenda.
-  </p>
-
-  <p>
-    I like keeping a few things this way. Not every curiosity needs a
-    problem statement, a benchmark, or a conclusion; sometimes it is
-    enough to follow an idea for a while simply because it is interesting.
-  </p>
 </div>
 
+<p class="misc-note">
+  Not every curiosity needs a problem statement, a benchmark, or a conclusion.
+  Some are worth following simply because they are interesting.
+</p>
 ## A Final Note
 
 I still do not know exactly where research will take me, and I hope that remains true for a while. Some of the questions I care about today will probably disappear; others have not occurred to me yet.
