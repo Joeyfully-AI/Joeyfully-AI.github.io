@@ -183,7 +183,6 @@ I also have a soft spot for old books, from Chinese classical literature to medi
   margin-top: 28px;
   font-size: 15.5px;
   line-height: 1.55;
-  font-style: italic;
   opacity: 0.85;
 }
 
