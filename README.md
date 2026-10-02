@@ -14,7 +14,7 @@ In the long run, I hope to develop embodied agents that can not only acquire bro
 
 * **[Sep, 2026]** Joined the **Embodied Robotics** course at Xiamen University as a Teaching Assistant, contributing to hands-on laboratory design and technical instruction.
 
-* **[Jun, 2026]** One paper was accepted to **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)**.
+* **[Jun, 2026]** **PhysReflect-VLA** was accepted to **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)**.
 
 ## Selected Research
 
