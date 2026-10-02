@@ -5,9 +5,9 @@ title: About
 
 I am an undergraduate student in Artificial Intelligence at [Xiamen University](https://www.xmu.edu.cn/), advised by [Fei Chao](https://cogsci.xmu.edu.cn/info/1034/1249.htm).
 
-I am broadly interested in robot learning and embodied AI, with a particular focus on how pretrained robot policies can be made more reliable, adaptive, and effective through interaction. My current research explores Vision-Language-Action models, long-horizon manipulation, and learning and control mechanisms that help robots translate broad task understanding into robust physical behavior.
+I am broadly interested in robot learning and embodied AI. My research focuses on how pretrained robot policies can be steered, adapted, and improved through interaction, and how these capabilities can translate into reliable behavior in the physical world.
 
-In the long run, I hope to develop robot policies that not only benefit from large-scale pretraining, but can also be steered, refined, and improved through feedback and experience. I am especially interested in how embodied agents can act reliably in complex environments, recover from failures, adapt to changing conditions, and continue improving through interaction.
+In the long run, I hope to develop embodied agents that can not only acquire broad capabilities from large-scale pretraining, but also refine them through feedback and experience — adapting to new situations, recovering from failures, and continuing to improve after deployment.
 
 
 ## News
@@ -148,9 +148,9 @@ Contributing to hands-on laboratory design and technical instruction in robot co
 
 ## Misc
 
-In my free time, I enjoy reading, wandering through cities, and imagining food that I may or may not actually cook. During my first year of college, I often spent weekends traveling alone without a fixed destination — hopping between streets, stations, neighborhoods, and quiet corners of a city just to see where the day would take me. I also have a soft spot for old books, from Chinese classical literature to medieval writings, and for being a “cloud foodie” and imaginary-kitchen chef when real cooking is temporarily unavailable :)
+Outside research, I enjoy reading, wandering through cities, playing chess, and thinking about food that I may or may not ever cook. During my first year of college, I often spent weekends traveling alone without a fixed destination — hopping between streets, stations, neighborhoods, and quiet corners of a city simply to see where the day would take me.
 
-Some of these interests have remained separate from my research; others have unexpectedly found their way back into how I think about robots and learning systems.
+I also have a soft spot for old books, from Chinese classical literature to medieval writings, and for being a bit of a “cloud foodie” and imaginary-kitchen chef whenever real cooking is temporarily unavailable. More generally, I enjoy the kind of small, unnecessary curiosities that are fun precisely because they do not need to become anything else.
 
 <style>
 .chess-story {
@@ -159,7 +159,6 @@ Some of these interests have remained separate from my research; others have une
   margin-top: 28px;
 }
 
-/* Word-style text wrapping */
 .chess-story-image {
   float: right;
   width: min(36%, 480px);
@@ -175,7 +174,6 @@ Some of these interests have remained separate from my research; others have une
   display: block;
 }
 
-/* Prevent the float from affecting later sections */
 .chess-story::after {
   content: "";
   display: block;
@@ -197,14 +195,11 @@ Some of these interests have remained separate from my research; others have une
 
 <div class="chess-story">
   <p>
-    Somewhere along the way, robotics also found an unexpected
-    route back into one of my older interests: chess. I occasionally
-    spend time with a small group of fellow chess enthusiasts who
-    enjoy building and experimenting with their own chess engines.
-    What began as casual conversations about strange moves, long
-    games, and why a model suddenly forgets how the board works
-    gradually turned into a fun exchange of ideas across two seemingly
-    distant worlds.
+    Chess is one of those interests I keep returning to. I occasionally
+    spend time with a small group of fellow enthusiasts who enjoy
+    building and experimenting with their own chess engines. Much of it
+    is delightfully informal: strange moves, long games, broken ideas,
+    unexpected successes, and plenty of complete nonsense.
   </p>
 
   <div class="chess-story-image">
@@ -215,29 +210,24 @@ Some of these interests have remained separate from my research; others have une
   </div>
 
   <p>
-    I found myself borrowing intuitions from robot learning — action
-    sequences, state tracking, generative policies, and the way small
-    errors accumulate over time — and wondering how they might
-    behave on a chessboard. Not every idea worked, of course, but that
-    was part of the charm. We would propose something, test it in a
-    few games, watch the engine produce either a surprisingly elegant
-    line or complete nonsense, and then try again.
+    Every now and then, ideas from machine learning sneak into these
+    experiments, such as questions about action sequences, state tracking,
+    generative policies, or how small errors accumulate over time.
+    But I mostly enjoy them for what they are: a chance to play with
+    models, exchange half-formed ideas with friends, and explore
+    something without needing it to become part of a research agenda.
   </p>
 
   <p>
-    I enjoy these experiments precisely because they are not part of my
-    formal research agenda. They are a reminder that technical ideas
-    can travel, that research does not always have to begin with a
-    carefully written problem statement, and that sometimes the best
-    way to understand a model is simply to play with it alongside
-    people who share the same curiosity.
+    I like keeping a few things this way. Not every curiosity needs a
+    problem statement, a benchmark, or a conclusion; sometimes it is
+    enough to follow an idea for a while simply because it is interesting.
   </p>
 </div>
 
 ## A Final Note
 
-I am sometimes asked why I chose artificial intelligence. I do not think there was a single moment when the answer suddenly became clear. It emerged gradually through models that failed in unexpected ways, ideas that worked only after many revisions, and the quiet satisfaction of watching something once confined to thought begin to perceive, decide, or act.
+I still do not know exactly where research will take me, and I hope that remains true for a while. Some of the questions I care about today will probably disappear; others have not occurred to me yet.
 
-I still do not know exactly where this path will lead. There are many questions I have not learned how to ask yet, let alone answer. But perhaps that is precisely why artificial intelligence has become my answer: not because it offers certainty, but because it gives me a language for exploring the uncertain and a way to turn curiosity into something that can move in the world.
-
+What I hope to keep is the curiosity that made all of this interesting in the first place — the pleasure of finding something I do not understand, playing with it for a while, and occasionally watching an idea turn into something real.
 
