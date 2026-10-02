@@ -131,17 +131,15 @@ In the long run, I hope to develop robot policies that not only benefit from lar
 
 ## Research Interests
 
-Within robot learning, deep reinforcement learning, and embodied AI, I am particularly interested in:
+Within robot learning and embodied AI, I am particularly interested in:
 
-**Reliable robot execution and physical intelligence:** study how robot policies can move beyond semantic task understanding toward physically grounded, precise, and recoverable execution in real-world environments.
+**Steering and post-training:** adapt and refine pretrained robot policies through reinforcement learning, feedback, and inference-time intervention, turning broad pretrained capabilities into controllable and effective behavior.
 
-**Reinforcement learning for robot foundation models:** investigate how reinforcement learning can extend pretrained Vision-Language-Action policies, improving their execution capabilities and adaptability while preserving the semantic understanding and behavioral priors acquired during pretraining.
+**Interactive robot learning:** enable robots to continue improving through experience, using interaction with the physical world to adapt to new tasks, environments, and failures.
 
-**Long-horizon and generalizable manipulation:** explore how robots can acquire, organize, and transfer underlying execution mechanisms across multi-stage, precision-demanding, and contact-rich tasks, enabling reliable adaptation to unseen or sparsely demonstrated tasks.
+**Reliable long-horizon behavior:** develop robot policies that remain physically grounded and coherent over extended tasks, with the ability to detect errors, recover from failures, and adapt their behavior as execution unfolds.
 
-I am also interested in predictive world models, physical consistency, and efficient adaptation as complementary paths toward more reliable and generalizable robot intelligence.
-
-I owe so much to the people who have generously mentored me, encouraged me, and inspired me with their vision and passion.
+I am also curious about predictive world models, continual learning, and multi-agent interaction as possible mechanisms for building more adaptive embodied agents.
 
 ## Teaching and Mentoring
 
