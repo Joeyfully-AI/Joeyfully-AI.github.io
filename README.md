@@ -5,12 +5,14 @@ title: About
 
 I am an undergraduate student in Artificial Intelligence at [Xiamen University](https://www.xmu.edu.cn/), advised by [Fei Chao](https://cogsci.xmu.edu.cn/info/1034/1249.htm).
 
-I am broadly interested in robot learning and embodied AI. My current research focuses on Vision-Language-Action models, long-horizon manipulation, and reliable robot control. I am especially interested in what happens after a robot understands a task: how it can produce actions that are physically feasible, precise, and recoverable when execution does not go as planned.
+I am broadly interested in robot learning and embodied AI, with a particular focus on how pretrained robot policies can be made more reliable, adaptive, and effective through interaction. My current research explores Vision-Language-Action models, long-horizon manipulation, and learning and control mechanisms that help robots translate broad task understanding into robust physical behavior.
 
-In the long run, I hope to develop robot policies that retain the broad understanding of foundation models while acquiring the precision, physical awareness, and adaptability required for real execution. My goal is to help robots move beyond producing plausible actions and toward completing complex tasks reliably in changing, imperfect environments.
+In the long run, I hope to develop robot policies that not only benefit from large-scale pretraining, but can also be steered, refined, and improved through feedback and experience. I am especially interested in how embodied agents can act reliably in complex environments, recover from failures, adapt to changing conditions, and continue improving through interaction.
 
 
 ## News
+
+* **[Sep, 2026]** Joined the **Embodied Robotics** course at Xiamen University as a Teaching Assistant, contributing to hands-on laboratory design and technical instruction.
 
 * **[Jun, 2026]** One paper was accepted to **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)**.
 
@@ -140,6 +142,11 @@ Within robot learning, deep reinforcement learning, and embodied AI, I am partic
 I am also interested in predictive world models, physical consistency, and efficient adaptation as complementary paths toward more reliable and generalizable robot intelligence.
 
 I owe so much to the people who have generously mentored me, encouraged me, and inspired me with their vision and passion.
+
+## Teaching and Mentoring
+
+**Embodied Robotics**, Xiamen University — *Teaching Assistant, Fall 2026*  
+Contributing to hands-on laboratory design and technical instruction in robot control, imitation learning, and Vision-Language-Action models.
 
 ## Misc
 
