@@ -136,7 +136,7 @@ In the long run, I hope to develop embodied agents that can not only acquire bro
   <div class="research-content">
     <p class="research-title">PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies</p>
     <p class="research-authors"><strong>Jiayu Yang</strong>, Tao Yang, Xiang Chang, Fei Chao, Changjing Shang, Qiang Shen</p>
-    <p class="research-venue">arXiv:2606.27144, 2026</p>
+    <p class="research-venue">arXiv preprint</p>
     <p class="research-links">
       <a href="https://arxiv.org/abs/2606.27144">paper</a>
     </p>
